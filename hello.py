@@ -1,0 +1,1 @@
+print('samrat er upor rahmat dao Allah')
