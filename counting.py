@@ -5,7 +5,9 @@ Created on Mon Oct 30 21:45:02 2023
 @author: User
 """
 
-current_number = 1
-while current_number <= 5:
-    print(current_number)
-current_number += 2
+current_num = 0
+while current_num < 10:
+    current_num += 1
+    if current_num % 2 == 0:
+        continue
+    print(current_num)
