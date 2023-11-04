@@ -6,6 +6,7 @@ Created on Wed Nov  1 22:14:31 2023
 """
 
 def my_func(fname,lname):
-    print(fname+ " "+lname)
-my_func("Emily", "Hudson")
-my_func("Jane", "Austin")
+    full_name = fname + ' '+ lname
+    return full_name.title()
+my_name = my_func("Emily", "Hudsson")
+print(my_name)
